@@ -1,9 +1,17 @@
-
+import Header from './Header';
+import Sidebar from './Sidebar';
+import Home from './Home';
 
 import './App.css';
 
 function App() {
-  return
+  return(
+    <div className="grid-container">
+      <Header />
+      <Sidebar />
+      <Home />
+    </div>
+  )
 }
 
 export default App;
