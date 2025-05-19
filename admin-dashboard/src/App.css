@@ -17,15 +17,35 @@ body{
 }
 
 
-/* Header Section */
+/* Icon Styles */
 
 .icon{
   vertical-align: middle;
   line-height: 1px;
   font-size: 20px;
 }
-.icon{
+
+.icon_header{
   vertical-align: middle;
   line-height: 1px;
-  font-size: 20px;
+  font-size: 26px;
+}
+
+.icon, .icon_header{
+  margin-left: 5px;
+}
+
+/* Header Section */
+
+.header{
+  grid-area: header;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 6px 7px -3px rgpa(0,0,0,0.35);
+}
+
+.menu-icon{
+  display: none;
 }
