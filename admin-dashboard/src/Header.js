@@ -1,5 +1,5 @@
 import React from 'react'
-import { BsFillBellFill,BsFillEnvelopeFill,BsPersonCircle,BsSearch,BsJustify, BsBellFill } from 'react-icons/bs';
+import { BsFillBellFill,BsFillEnvelopeFill,BsPersonCircle,BsSearch,BsJustify } from 'react-icons/bs';
 const Header = () => {
   return (
     <header className='header'>
@@ -9,8 +9,8 @@ const Header = () => {
       <div className='header-left'>
         <BsSearch className='icon' />
       </div>
-      <div className='menu-right'>
-        <BsBellFill className='icon' />
+      <div className='header-right'>
+        <BsFillBellFill className='icon' />
         <BsFillEnvelopeFill className='icon' />
         <BsPersonCircle className='icon' />
       </div>
