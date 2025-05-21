@@ -4,7 +4,7 @@ import {
   ComposedChart,
   Line,
   Area,
-  Bar,
+  Bar, 
   XAxis,
   YAxis,
   CartesianGrid,
