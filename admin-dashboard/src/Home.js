@@ -55,7 +55,6 @@ const data = [
   },
 ];
 
-
   return (
     <main className='main-container'>
       <div className='main-title'>
@@ -97,7 +96,7 @@ const data = [
       {/* Charts section */}
       
       <div className="charts">
-      <ResponsiveContainer width="100%" height="100%">
+       <ResponsiveContainer width="100%" height="100%">
         <ComposedChart
           width={500}
           height={400}
