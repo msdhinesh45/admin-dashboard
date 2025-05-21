@@ -10,7 +10,9 @@ import {
   CartesianGrid,
   Tooltip,
   Legend,
-  ResponsiveContainer,
+  LineChart,
+  ReferenceLine,
+  ResponsiveContainer
 } from 'recharts';
 
 const Home = () => {
