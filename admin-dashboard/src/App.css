@@ -138,8 +138,8 @@ body {
 .main-cards{
   display: flex;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 20px;
-  margin: 15px 0;
+  gap: 30px;
+  margin: 15px 10px;
 }
 
 .card{
@@ -147,6 +147,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   padding: 8px 15px;
+  width: 250px;
   border-radius: 10px;
 }
 
@@ -174,6 +175,8 @@ body {
   font-size: 25px;
 }
 
+/* Charts */
+
 .charts{
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -184,5 +187,4 @@ body {
 
 
 
-/* Charts */
 
