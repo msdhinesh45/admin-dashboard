@@ -15,7 +15,7 @@ const openSideBar=()=>{
   return(
     <div className="grid-container">
       <Header openSideBar={openSideBar} />
-      <Sidebar />
+      <Sidebar openSideBarToggle={openSideBarToggle}/>
       <Home />
     </div>
   )
